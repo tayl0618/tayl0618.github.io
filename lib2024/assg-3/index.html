@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<title>Assignment 3</title>
+	<meta charset="utf-8">
+	<meta name="Hidaayyah Taylor-Sandiford" content="assignment 3">
+	<h1>Fun Forms For All! &#9786; </h1>
+	<h3>Contact Information &#9742;</h3>
+	<div id="wrapper" class="wrapper">
+		<section id="html-forms" class="main-section">
+			<form action="somepage.php" method="get">
+				<div id="fn-container" class="form-elm">
+					<label for="firstname">First Name</label>
+					<input type="text" name="firstname" id="firstname" required placeholder="First Name Here">
+				</div>
+				<div id="ln-container" class="form-elm">
+					<label for="lastname">Last Name</label>
+					<input type="text" name="lastname" id="lastname" required placeholder="Last Name Here">
+				</div>
+				<div id="email-container" class="form-elm">
+					<label for="email">Email Address</label>
+					<input type="email" name="email" id="email" required placeholder="username@anymail.com">
+				</div>
+				<div id="pass-container" class="form-elm">
+					<label for="pass">Password</label>
+					<input type="password" name="pass" id="pass" required placeholder="No one will ever know">
+				</div>
+				<div id="number-container" class="form-elm">
+					<label for="phone">Phone Number</label>
+					<input type="tel" id="phone" name="phone" placeholder="666-666-6666" required>
+				</div>
+			</form>
+		</section>
+	</div>
+	<div>
+		<h3>Home Address &#9962;</h3>
+				<form action="somepage.php" method="get">
+					<div id="address-container" class="form-elm">
+						<label for="address">Street Address</label>
+						<input type="text" name="address" id="address" placeholder="100 Real Street" required>
+					</div>
+					<div id="postcd-container" class="form-elm">
+						<label for="postcd">Postal Code</label>
+						<input type="text" name="postcd" id="postcd" placeholder="T1T 1E5" required>
+					</div>
+					<div id="city-drop-container" class="form-elm">
+						<label for="city">City</label>
+						<input type="text" name="city" id="city" placeholder="Actual place on Earth">
+					</div>
+					<div id="province-drop-container" class="form-elm">
+						<label for="province">Province</label>
+						<select name="province" id="province">
+							<option value ="quebec" selected>Quebec</option>
+							<option value="ontario">Ontario</option>
+							<option value="manitoba">Manitoba</option>
+							<option value="saskatchewan">Saskatchewan</option>
+							<option value="alberta">Alberta</option>
+							<option value="bc">B.C.</option>
+						</select>
+					</div>
+					<div id="country-drop-container" class="form-elm">
+						<label for="country">Country</label>
+						<select name="country" id="country">
+							<option value="canada" selected>Canada</option>
+							<option value="united-states">United States</option>
+							<option value="barbados">Barbados</option>
+							<option value="japan">Japan</option>
+							<option value="sealand">Sealand</option>
+						</select>
+					</div>
+				</form>
+			
+		</div>
+	<div>
+		<h3>About You! &#9977;</h3>
+				<form action="somepage.php" method="get">
+					<div>
+						<label for="date">Birthdate</label>
+						<input type="date" name="date" id="date">
+					</div>
+					<div id="radio-containter" class="form-elm">
+						<p>Please state your gender</p>
+						<label for="man">
+							<input type="radio" name="gender-form" id="man" value="man">
+							Man
+						</label>
+						<label for="woman">
+							<input type="radio" name="gender-form" id="woman" value="woman">
+							Woman
+						</label>
+						<label for="both">
+							<input type="radio" name="gender-form" id="both" value="both">
+							Both
+						</label>
+						<label for="neither">
+							<input type="radio" name="gender-form" id="neither" value="neither">
+							Neither
+						</label>
+						<label for="uncomf">
+							<input type="radio" name="gender-form" id="uncomf" value="uncomf" checked>
+							This is really uncomfortable
+						</label>
+					</div>
+					<fieldset>
+						<legend>Choose a few hobbies</legend>
+						<div>
+							<label for="read">
+								Reading
+								<input type="checkbox" name="read" id="read">
+							</label>
+							<label for="art">
+								Art
+								<input type="checkbox" name="art" id="art">
+							</label>
+							<label for="argue">
+								Arguing
+								<input type="checkbox" name="argue" id="argue">
+							</label>
+							<label for="sleep">
+								Sleeping
+								<input type="checkbox" name="sleep" id="sleep">
+							</label>
+							<label for="eat">
+								Eating
+								<input type="checkbox" name="eat" id="eat">
+							</label>
+							<label for="eatfan">
+								Eating Fancy
+								<input type="checkbox" name="eatfan" id="eatfan">
+							</label>
+							<label for="owna">
+								Own an animal
+								<input type="checkbox" name="owna" id="owna">
+							</label>
+						</div>
+					</fieldset>
+					<div id="sum-containter" class="form-elm">
+						<label for="summary">Tell us a little bit about yourself</label>
+						<textarea name="summary" id="summary" placeholder="Spill your secrets"></textarea>
+					</div>
+					<div id="st-containter" class="form-elm">
+						<label for="ur">Enter your favourite URL</label>
+						<input type="url" name="ur" id="ur">
+					</div>
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</form>
+		</div>
+</body>
+</html>
