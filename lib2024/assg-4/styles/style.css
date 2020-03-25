@@ -58,7 +58,8 @@ table {
 	width: 100%;
 }
 header {
-	background: #757575
+	background: #7CC576;
+	height: 230px;
 }
 
 .logo {
@@ -66,8 +67,19 @@ header {
 	width: 300px
 	padding: 30px;
 	box-sizing: border-box;
-	background: #1976D2;
+	background: #7CC576;
 }
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
 .main-nav-container-desktop-nav {
 	float: right;
 	width: calc(100% - 100px);
@@ -80,9 +92,24 @@ header {
 
 .main-nav-container-desktop-nav li {
 	box-sizing: border-box;
-	width: 100%;
+	width: 165px;
 	float: right;
-	background: #757575;
+	background: #6DCFF6;
+}
+
+.link-square {
+	width: 165px;
+	float: right;
+}
+
+h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
 }
 
 .main-nav a {
@@ -91,16 +118,58 @@ header {
 	width: 100%;
 	padding: 10px;
 }
+
+.main-section {
+	float: left;
+	width: 680px;
+	padding: 10px;
+}
+
+.img-sidebar {
+	float: right;
+	width: 280px;
+	padding: 10px;
+}
+
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+.site-sidebar {
+	float: right;
+	width: 280px;
+	padding: 10px;
+}
+
 footer {
-	background: #F44336;
+	background: #7CC576;
 	padding: 15px;
-	width: 100%;
+	width: 50%;
 	box-sizing:border-box;
 }
 
+.footer-container {
+	width: 27%
+	padding: 20px;
+	float: left;
+	margin-top: 35px;
+}
 .whole-footer {
-	width: 85%/
+	width: 100%;
 	margin: 1 1%;
 	padding: 20px;
 	float: left;
+}
+
+.footer-slide {
+	float: right;
+	width: 48px;
+	padding: 10px;
+
 }
