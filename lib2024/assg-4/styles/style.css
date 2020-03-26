@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+main {
+	background-image: url(../images/triangle-mosaic.png);
+}
+
 /*CSS clearfix*/
 
 .clearfix:after {
@@ -60,12 +64,13 @@ table {
 header {
 	background: #7CC576;
 	height: 230px;
+	text-align: center;
 }
 
 .logo {
 	float: left;
-	width: 300px
-	padding: 30px;
+	width: 10%;
+	padding: 10px;
 	box-sizing: border-box;
 	background: #7CC576;
 }
@@ -81,26 +86,23 @@ h1 {
 }
 
 .main-nav-container-desktop-nav {
-	float: right;
-	width: calc(100% - 100px);
+	float: left;
+	width: 100%;
 	display: block;
-	max-width: 960px;
-}
-.main-nav-container-desktop-nav ul {
-	width: 100%
+	box-sizing: border-box;
 }
 
 .main-nav-container-desktop-nav li {
 	box-sizing: border-box;
-	width: 165px;
-	float: right;
+	width: 20%;
+	float: left;
+	padding: 5px;
+	display: block;
+	margin: 5px;
 	background: #6DCFF6;
+	text-align: center;
 }
 
-.link-square {
-	width: 165px;
-	float: right;
-}
 
 h2 {
 	display: block;
@@ -119,16 +121,46 @@ h2 {
 	padding: 10px;
 }
 
-.main-section {
+.col-main-site-content {
 	float: left;
-	width: 680px;
+	width: 75%;
 	padding: 10px;
 }
 
-.img-sidebar {
-	float: right;
-	width: 280px;
+.main-section {
+	float: left;
+	width: 65%;
 	padding: 10px;
+}
+
+.image-gallery .img-slide {
+	width: 33%;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+}
+
+.image-gallery {
+	width: 95%;
+	padding: 20px;
+	float: left;
+}
+
+.sidebar-cont {
+	width: 30%;
+	padding: 10px;
+	float: right;
+	display: block;
+	box-sizing: border-box;
+}
+
+.sidebar-text {
+	width: 20%
+	padding: 10px;
+	box-sizing: border-box;
+	float: right;
+	display: block;
 }
 
 h3 {
@@ -141,11 +173,6 @@ h3 {
 	font-weight: bold;
 }
 
-.site-sidebar {
-	float: right;
-	width: 280px;
-	padding: 10px;
-}
 
 footer {
 	background: #7CC576;
@@ -155,14 +182,14 @@ footer {
 }
 
 .footer-container {
-	width: 27%
+	width: 27%;
 	padding: 20px;
 	float: left;
 	margin-top: 35px;
 }
 .whole-footer {
 	width: 100%;
-	margin: 1 1%;
+	margin: 1 0%;
 	padding: 20px;
 	float: left;
 }
